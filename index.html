@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Morty Madness</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Morty Madness</h1>
+        <h2 class="pickChar">Pick your character!</h2>
+        <div class="row row1">
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-body firstChar">
+                        <h5 class="card-title">Pickle Rick</h5>
+                        <p class="card-text">150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body secondChar">
+                        <h5 class="card-title">Mr. Meeseeks</h5>
+                        <p class="card-text">80</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body thirdChar">
+                        <h5 class="card-title">Squanchy</h5>
+                        <p class="card-text">100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body fourthChar">
+                        <h5 class="card-title">Jerry</h5>
+                        <p class="card-text">50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row2">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <h3 class="forSecRow">Your Character: </h2>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <h3 class="forSecRow">Enemy Character: </h2>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row row3">
+            <div class="col-1"></div>
+            <div class="col-4 userCharLoc"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-primary btn-lg">Attack!</button>
+            </div>
+            <div class="col-4 enemyCharLoc"></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
