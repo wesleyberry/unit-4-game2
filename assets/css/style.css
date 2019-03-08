@@ -1,6 +1,5 @@
 body {
     background-image: url("../images/background.jpg");
-    /* background-repeat: round; */
     width: 100%;
     height: auto;
 }
@@ -8,7 +7,7 @@ body {
 .container {
     position: absolute;
     width: 1200px;
-    height: 680px;
+    height: 800px;
     margin-left: 12%;
     margin-top: 2%;
     border-style: solid;
@@ -71,7 +70,6 @@ body {
     border-color: white;
     border-width: 4px;
     border-radius: 2px;
-    left: 22%;
     top: 2%;
     background-repeat: no-repeat;
 }
@@ -86,7 +84,6 @@ body {
     color: white;
     border-width: 4px;
     border-radius: 2px;
-    left: 42%;
     top: 2%;
     background-repeat: no-repeat;
 }
@@ -101,7 +98,6 @@ body {
     color: white;
     border-width: 4px;
     border-radius: 2px;
-    left: 62%;
     top: 2%;
     background-repeat: no-repeat;
 }
@@ -114,21 +110,34 @@ body {
     height: 100px;
 }
 .row3 {
+    position: absolute;
     margin-bottom: 0;
+    height: 210px;
+    width: 100%;
 }
             /* Buttons */
 .btn-primary {
     background-color: red;
+    margin-left: 0;
+}
+.colButton {
+    padding-left: 4%;
 }
 .forSecRow {
     color: white;
     text-align: center;
 }
+.customButton {
+    
+}
+        /* Locations */
 .userCharLoc {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    padding-left: 8%;
 }
 .enemyCharLoc {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    padding-left: 8%;
 }
